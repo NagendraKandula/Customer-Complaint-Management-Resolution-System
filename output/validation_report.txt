@@ -1,0 +1,83 @@
+CUSTOMER COMPLAINT SYSTEM - VALIDATION REPORT
+=======================================================
+
+1. PRIMARY KEY VALIDATION
+PASS: agents has primary key (agents_pkey)
+PASS: complaint_assignments has primary key (complaint_assignments_pkey)
+PASS: complaint_categories has primary key (complaint_categories_pkey)
+PASS: complaint_messages has primary key (complaint_messages_pkey)
+PASS: complaint_status_history has primary key (complaint_status_history_pkey)
+PASS: complaints has primary key (complaints_pkey)
+PASS: customers has primary key (customers_pkey)
+PASS: decision_logs has primary key (decision_logs_pkey)
+PASS: exception_cases has primary key (exception_cases_pkey)
+PASS: order_items has primary key (order_items_pkey)
+PASS: orders has primary key (orders_pkey)
+PASS: priority_rules has primary key (priority_rules_pkey)
+PASS: products has primary key (products_pkey)
+PASS: resolutions has primary key (resolutions_pkey)
+PASS: sla_clocks has primary key (sla_clocks_pkey)
+PASS: sla_events has primary key (sla_events_pkey)
+PASS: sla_policy has primary key (sla_policy_pkey)
+PASS: surveys has primary key (surveys_pkey)
+PASS: teams has primary key (teams_pkey)
+
+2. FOREIGN KEY VALIDATION
+PASS: agents has foreign key (agents_team_id_fkey)
+PASS: complaint_assignments has foreign key (complaint_assignments_agent_id_fkey)
+PASS: complaint_assignments has foreign key (complaint_assignments_team_id_fkey)
+PASS: complaint_assignments has foreign key (complaint_assignments_complaint_id_fkey)
+PASS: complaint_categories has foreign key (complaint_categories_default_team_id_fkey)
+PASS: complaint_messages has foreign key (complaint_messages_complaint_id_fkey)
+PASS: complaint_status_history has foreign key (complaint_status_history_complaint_id_fkey)
+PASS: complaints has foreign key (complaints_order_id_fkey)
+PASS: complaints has foreign key (complaints_product_id_fkey)
+PASS: complaints has foreign key (complaints_customer_id_fkey)
+PASS: complaints has foreign key (complaints_priority_rule_id_fkey)
+PASS: complaints has foreign key (complaints_repeat_of_complaint_id_fkey)
+PASS: complaints has foreign key (complaints_category_id_fkey)
+PASS: decision_logs has foreign key (decision_logs_complaint_id_fkey)
+PASS: order_items has foreign key (order_items_product_id_fkey)
+PASS: order_items has foreign key (order_items_order_id_fkey)
+PASS: orders has foreign key (orders_customer_id_fkey)
+PASS: resolutions has foreign key (resolutions_resolved_by_fkey)
+PASS: resolutions has foreign key (resolutions_complaint_id_fkey)
+PASS: sla_clocks has foreign key (sla_clocks_complaint_id_fkey)
+PASS: sla_clocks has foreign key (sla_clocks_priority_level_fkey)
+PASS: sla_events has foreign key (sla_events_sla_id_fkey)
+PASS: surveys has foreign key (surveys_complaint_id_fkey)
+PASS: surveys has foreign key (surveys_resolution_id_fkey)
+
+3. REQUIRED DATA VALIDATION
+PASS: Customers missing IDs = 0
+PASS: Products missing IDs = 0
+PASS: Orders missing IDs = 0
+PASS: Complaints missing IDs = 0
+PASS: Resolutions missing IDs = 0
+
+4. ALLOWED VALUE VALIDATION
+PASS: Invalid complaint statuses = 0
+PASS: Invalid priorities = 0
+
+5. LIFECYCLE VALIDATION
+PASS: Negative reopen counts = 0
+FAIL: Resolution before complaint = 1
+
+6. GROUND TRUTH VALIDATION
+PASS: Known anomalies = 6 (expected 6)
+
+7. GENERATED RECORD COUNTS
+customers: 5000 rows
+products: 100 rows
+orders: 8000 rows
+order_items: 20128 rows
+complaints: 2001 rows
+complaint_messages: 6000 rows
+complaint_assignments: 2001 rows
+complaint_status_history: 6317 rows
+resolutions: 1012 rows
+sla_clocks: 2000 rows
+sla_events: 7341 rows
+surveys: 812 rows
+
+VALIDATION COMPLETED

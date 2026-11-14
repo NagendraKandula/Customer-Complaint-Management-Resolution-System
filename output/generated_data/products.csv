@@ -1,0 +1,101 @@
+product_id,product_name,product_category,unit_price,is_safety_critical,is_active
+PRD-0001,Smartphone,Electronics,56941.95,False,True
+PRD-0002,Laptop,Electronics,131735.37,False,True
+PRD-0003,Tablet,Electronics,50827.72,False,True
+PRD-0004,Bluetooth Speaker,Electronics,527.79,False,True
+PRD-0005,Wireless Earbuds,Electronics,2014.21,False,True
+PRD-0006,Smart Watch,Electronics,8404.82,False,True
+PRD-0007,Power Bank,Electronics,3459.48,True,True
+PRD-0008,Mobile Charger,Electronics,644.90,True,True
+PRD-0009,USB Cable,Electronics,204.24,False,True
+PRD-0010,LED Monitor,Electronics,5178.29,False,True
+PRD-0011,Keyboard,Electronics,962.38,False,True
+PRD-0012,Computer Mouse,Electronics,312.60,False,True
+PRD-0013,WiFi Router,Electronics,2038.35,False,True
+PRD-0014,External Hard Drive,Electronics,13985.67,False,True
+PRD-0015,USB Flash Drive,Electronics,1123.47,False,True
+PRD-0016,Webcam,Electronics,1212.20,False,True
+PRD-0017,Gaming Console,Electronics,42687.59,False,True
+PRD-0018,Graphics Tablet,Electronics,3600.26,False,True
+PRD-0019,Lithium Battery Pack,Electronics,7887.71,True,True
+PRD-0020,Extension Board,Electronics,2604.83,True,True
+PRD-0021,Refrigerator,Home Appliances,26143.42,False,True
+PRD-0022,Washing Machine,Home Appliances,13610.01,False,True
+PRD-0023,Microwave Oven,Home Appliances,17617.18,False,True
+PRD-0024,Electric Kettle,Home Appliances,763.01,True,True
+PRD-0025,Room Heater,Home Appliances,7957.24,True,True
+PRD-0026,Air Conditioner,Home Appliances,29093.35,False,True
+PRD-0027,Ceiling Fan,Home Appliances,6312.65,False,True
+PRD-0028,Table Fan,Home Appliances,3199.43,False,True
+PRD-0029,Mixer Grinder,Home Appliances,9919.28,True,True
+PRD-0030,Induction Cooktop,Home Appliances,3401.34,True,True
+PRD-0031,Vacuum Cleaner,Home Appliances,2513.22,False,True
+PRD-0032,Water Purifier,Home Appliances,12613.23,False,True
+PRD-0033,Air Purifier,Home Appliances,30838.82,False,True
+PRD-0034,Rice Cooker,Home Appliances,4655.19,True,True
+PRD-0035,Toaster,Home Appliances,2606.81,True,True
+PRD-0036,Dishwasher,Home Appliances,27201.92,False,True
+PRD-0037,Water Geyser,Home Appliances,16213.51,True,True
+PRD-0038,Electric Iron,Home Appliances,701.80,True,True
+PRD-0039,Room Humidifier,Home Appliances,1125.72,False,True
+PRD-0040,Food Processor,Home Appliances,7612.32,False,True
+PRD-0041,Hair Dryer,Personal Care,2027.16,True,True
+PRD-0042,Electric Trimmer,Personal Care,4936.74,True,True
+PRD-0043,Electric Shaver,Personal Care,5138.25,True,True
+PRD-0044,Hair Straightener,Personal Care,4187.97,True,True
+PRD-0045,Hair Curler,Personal Care,6531.57,True,True
+PRD-0046,Electric Toothbrush,Personal Care,3488.15,True,True
+PRD-0047,Digital Weighing Scale,Personal Care,1689.33,False,True
+PRD-0048,Facial Cleansing Brush,Personal Care,2451.18,False,True
+PRD-0049,Massage Gun,Personal Care,5230.26,False,True
+PRD-0050,Heating Pad,Personal Care,3429.55,True,True
+PRD-0051,Blood Pressure Monitor,Personal Care,3505.85,False,True
+PRD-0052,Digital Thermometer,Personal Care,579.48,False,True
+PRD-0053,Foot Massager,Personal Care,14966.50,False,True
+PRD-0054,Water Flosser,Personal Care,4127.31,False,True
+PRD-0055,Nail Care Kit,Personal Care,2620.45,False,True
+PRD-0056,Office Chair,Furniture,6805.57,False,False
+PRD-0057,Study Table,Furniture,11858.67,False,True
+PRD-0058,Bookshelf,Furniture,10261.25,False,True
+PRD-0059,Dining Table,Furniture,31233.39,False,True
+PRD-0060,Sofa,Furniture,40232.18,False,True
+PRD-0061,Bed Frame,Furniture,30266.72,False,True
+PRD-0062,Mattress,Furniture,12091.28,False,True
+PRD-0063,Wardrobe,Furniture,5800.08,False,True
+PRD-0064,Coffee Table,Furniture,6195.01,False,True
+PRD-0065,TV Stand,Furniture,5745.77,False,True
+PRD-0066,Side Table,Furniture,1909.11,False,True
+PRD-0067,Recliner Chair,Furniture,33507.19,False,True
+PRD-0068,Shoe Rack,Furniture,4608.94,False,True
+PRD-0069,Baby Crib,Furniture,11347.15,True,True
+PRD-0070,Storage Cabinet,Furniture,2346.02,False,True
+PRD-0071,Laptop Bag,Accessories,1189.24,False,True
+PRD-0072,Phone Case,Accessories,483.57,False,True
+PRD-0073,Screen Protector,Accessories,111.01,False,True
+PRD-0074,Laptop Stand,Accessories,1577.12,False,True
+PRD-0075,Headphone Stand,Accessories,1790.89,False,True
+PRD-0076,Camera Tripod,Accessories,2408.17,False,True
+PRD-0077,Travel Adapter,Accessories,1533.23,True,True
+PRD-0078,Surge Protector,Accessories,3966.80,True,True
+PRD-0079,HDMI Cable,Accessories,170.54,False,True
+PRD-0080,Wireless Presenter,Accessories,1634.38,False,True
+PRD-0081,Smart Watch Strap,Accessories,276.49,False,True
+PRD-0082,Camera Lens,Accessories,11395.78,False,True
+PRD-0083,Microphone,Accessories,6703.85,False,True
+PRD-0084,Laptop Cooling Pad,Accessories,715.56,False,True
+PRD-0085,Memory Card,Accessories,869.09,False,True
+PRD-0086,Water Bottle,Other,410.91,False,True
+PRD-0087,Backpack,Other,2569.15,False,True
+PRD-0088,Wall Clock,Other,1620.08,False,True
+PRD-0089,Desk Lamp,Other,3594.84,False,True
+PRD-0090,Torch Light,Other,2549.00,False,True
+PRD-0091,Kitchen Storage Set,Other,2112.53,False,True
+PRD-0092,Non-stick Cookware Set,Other,1354.49,False,True
+PRD-0093,Dinner Set,Other,3003.75,False,True
+PRD-0094,Electric Sewing Machine,Other,18709.67,True,True
+PRD-0095,Portable Generator,Other,33635.11,True,True
+PRD-0096,Smoke Detector,Other,2837.05,False,True
+PRD-0097,Fire Extinguisher,Other,7698.58,False,True
+PRD-0098,Garden Water Pump,Other,2517.68,True,True
+PRD-0099,Digital Safe,Other,8937.71,False,True
+PRD-0100,Air Mattress,Other,2993.31,False,True
