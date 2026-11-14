@@ -1,0 +1,7 @@
+ground_truth_id,entity_name,record_id,issue_type,expected_value,actual_value,expected_detection,scenario_name,notes
+GT-ANOM-001,complaints,CMP-2026-000001,COMPLAINT_NO_CUSTOMER,,,True,Missing Customer,Complaint has no customer reference
+GT-ANOM-002,resolutions,RES-CMP-2026-000001,RESOLUTION_BEFORE_COMPLAINT,,,True,Resolution Before Complaint,Resolution timestamp is earlier than complaint creation
+GT-ANOM-003,sla_clocks,SLA-CMP-2026-000001,SLA_PAUSE_INCORRECT,,,True,Incorrect SLA Pause,SLA paused without a valid customer waiting reason
+GT-ANOM-004,complaints,CMP-2026-999999,REPEAT_NOT_LINKED,,,True,Repeat Not Linked,Repeat complaint has no reference to original complaint
+GT-ANOM-005,complaints,CMP-2026-000020,SAFETY_LOW_QUEUE,,,True,Safety Low Queue,Safety complaint assigned to general support
+GT-ANOM-006,surveys,SRV-CMP-2026-000001,SURVEY_BEFORE_CLOSURE,,,True,Survey Before Closure,Survey sent before complaint resolution
